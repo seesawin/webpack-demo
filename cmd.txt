@@ -1,0 +1,11 @@
+mkdir webpack-demo && cd webpack-demo
+npm init -y
+npm install --save-dev webpack
+\node_modules\.bin\webpack --help # For windows users
+webpack --help # If you installed webpack globally
+npm install --save lodash
+./node_modules/.bin/webpack app/index.js dist/bundle.js # For no webpack.config.js
+or
+webpack
+or
+npm run build
